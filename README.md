@@ -118,8 +118,9 @@ _defaults = {
 ```python
 img/street.jpg
 ```   
-4. 在predict.py里面进行设置可以进行fps测试和video视频检测。    
-5.更改img_dir 和save_path，即输入输出路径后，运行predict.py，即可得到预测图像。
+4. 在predict.py里面进行设置可以进行fps测试和video视频检测。
+5. 更改img_dir 和save_path，即输入输出路径后，运行predict.py，即可得到预测图像。
+
 ### 评估步骤
 1、设置get_miou.py里面的num_classes为预测的类的数量加1。  
 2、设置get_miou.py里面的name_classes为需要去区分的类别。  
