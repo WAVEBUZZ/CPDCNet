@@ -125,6 +125,6 @@ img/street.jpg
 2、设置get_miou.py里面的name_classes为需要去区分的类别。  
 3、运行get_miou.py即可获得miou大小。  
 
-###模型复杂度评估
-1.设置summary.py的num_classes为预测的类的数量加1。
-2.运行summary.py即可得到flops, params。
+### 模型复杂度
+1、设置summary.py的num_classes为预测的类的数量加1。
+2、运行summary.py即可得到flops, params。
